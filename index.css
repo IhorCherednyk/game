@@ -1,0 +1,129 @@
+body {
+	background-image: url(images.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+.deep {
+	display: inline-block;
+	width: 30%;
+	border: 1px solid black;
+	border-radius: 10em;
+	margin: 10px 30px;
+	width: 110px;
+	height: 110px;
+	background-color: #fff;
+	background-position: 10px 105px;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.counter-fill, .start {
+	position: absolute;
+	right: 78px;
+	bottom: 26px;
+	font-size: 20px;
+	color: #000;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+.timer_inp {
+    bottom: 32px;
+    color: #FE0A26;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: bold;
+    height: 100px;
+    left: 57px;
+    line-height: 100px;
+    position: absolute;
+    text-align: center;
+    width: 100px;
+}
+.start {
+    border-radius: 10px;
+    bottom: 56px;
+    height: 50px;
+    right: 162px;
+    width: 65px;
+	-webkit-transform: skewX(15deg);
+	-ms-transform: skewX(15deg);
+	-o-transform: skewX(15deg);
+	transform: skewX(15deg);
+
+}
+.start:hover {
+	-webkit-box-shadow: 2px 1px 15px 13px #fff;
+	box-shadow: 2px 1px 15px 13px #fff;
+}
+.bgc {
+	background-color: red;
+}
+.pole-wrap{
+	margin: 50px auto;
+	width: 800px;
+	height: 583px;
+	background-image: url(fill.jpg);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-top: 35px;
+	position: relative;
+}
+.pole {
+	border-radius: 8px;
+	text-align: center;
+	height: 436px;
+	width: 583px;
+	margin: 0px auto;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.active{
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.active {
+	background-image: url(128.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 90%;
+	background-size: 80%;
+	background-position: 10px 10px;
+
+}
+.lvl {
+    bottom: 47px;
+    height: 58px;
+    left: 231px;
+    position: absolute;
+    width: 237px;
+}
+.lvl span {
+	display: inline-block;
+	width: 41px;
+	height: 49px;
+	margin: 0 1px;
+		-webkit-transform: skewX(-5deg);
+	-ms-transform: skewX(-5deg);
+	-o-transform: skewX(-5deg);
+	transform: skewX(-5deg);
+	border-radius: 10px;
+}
+.lvl span:hover {
+	-webkit-box-shadow: 2px 1px 15px 13px #fff;
+	box-shadow: 2px 1px 15px 13px #fff;
+}
